@@ -1,0 +1,9 @@
+services:
+  mailer:
+    build: .
+    container_name: flowcore-mailer
+    restart: unless-stopped
+    ports:
+      - "15124:3000"
+    env_file:
+      - .env
