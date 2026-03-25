@@ -1,6 +1,6 @@
 function contactForm({ name, email, reason, message }) {
   return {
-    subject: `New contact form submission — ${reason}`,
+    subject: `New Submission - ${reason} - ${name}`,
     html: `
       <div style="font-family:Inter,Arial,sans-serif;max-width:600px;margin:0 auto;background:#f8fafc;border-radius:12px;overflow:hidden">
         <div style="background:linear-gradient(135deg,#4f46e5,#7c3aed);padding:32px 40px">
